@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LayoutTest</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="split_array">
+    <item>None</item>
+    <item>2 way</item>
+    <item>3 way</item>
+    </string-array>
+</resources>
