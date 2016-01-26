@@ -30,4 +30,4 @@
         android:id="@+id/seekBar"
         android:max="30"
         android:progress="15" />
-</Fr>
+</LinearLayout>
