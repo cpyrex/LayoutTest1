@@ -61,13 +61,13 @@ public class MainActivity extends ActionBarActivity {
         int splitPosition = splitSpinner.getSelectedItemPosition();
         int split = splitPosition + 1;
         float perPersonAmount = 0;
-        if(split == 1 ){
+     /*   if(split == 1 ){
             perPersonLabel.setVisibility.(View.GONE);
             perPersonTextView.setVisibility.(View.GONE);
         } else {
             perPersonAmount = totalAmount / split;
             perPersonLabel.setVisibility.(View.VISIBLE);
             perPersonTextView.setVisibility.(View.VISIBLE);
-        }
+        }*/
     }
 }
