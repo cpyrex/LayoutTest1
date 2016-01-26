@@ -53,7 +53,7 @@ public class MainActivity extends ActionBarActivity {
         if (id == R.id.action_settings) {
             return true;
         }
-
+//change
         return super.onOptionsItemSelected(item);
     }
     public void calculateAndDisplay() {
