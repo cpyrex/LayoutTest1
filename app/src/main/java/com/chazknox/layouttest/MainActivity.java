@@ -4,6 +4,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
@@ -54,5 +55,19 @@ public class MainActivity extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+    public void calculateAndDisplay() {
+
+        int splitPosition = splitSpinner.getSelectedItemPosition();
+        int split = splitPosition + 1;
+        float perPersonAmount = 0;
+        if(split == 1 ){
+            perPersonLabel.setVisibility.(View.GONE);
+            perPersonTextView.setVisibility.(View.GONE);
+        } else {
+            perPersonAmount = totalAmount / split;
+            perPersonLabel.setVisibility.(View.VISIBLE);
+            perPersonTextView.setVisibility.(View.VISIBLE);
+        }
     }
 }
